@@ -563,11 +563,11 @@ html::-webkit-scrollbar-thumb {
 /* Banner Section Style */
 .banner__sub-title {
   font-size: 3rem;
-  background: -webkit-gradient(linear, right top, left top, from(#b25d46), color-stop(#a74141), color-stop(#743879), to(#4a3ca0));
-  background: -webkit-linear-gradient(right, #b25d46, #a74141, #743879, #4a3ca0);
-  background: -moz-linear-gradient(right, #b25d46, #a74141, #743879, #4a3ca0);
-  background: -o-linear-gradient(right, #b25d46, #a74141, #743879, #4a3ca0);
-  background: linear-gradient(to left, #b25d46, #a74141, #743879, #4a3ca0);
+  background: -webkit-gradient(linear, right top, left top, from(#1e7a99), color-stop(#2699c0), color-stop(#4a62d0), to(#6c2de0));
+  background: -webkit-linear-gradient(right, #1e7a99, #2699c0, #4a62d0, #6c2de0);
+  background: -moz-linear-gradient(right, #1e7a99, #2699c0, #4a62d0, #6c2de0);
+  background: -o-linear-gradient(right, #1e7a99, #2699c0, #4a62d0, #6c2de0);
+  background: linear-gradient(to left, #1e7a99, #2699c0, #4a62d0, #6c2de0);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -597,11 +597,11 @@ html::-webkit-scrollbar-thumb {
   /* Rimosso --> left: var(--left);*/
   width: var(--width);
   height: 50vh;
-  background: -webkit-gradient(linear, left top, left bottom, from(#b25d46), color-stop(#a74141), color-stop(#743879), to(#4a3ca0));
-  background: -webkit-linear-gradient(#b25d46, #a74141, #743879, #4a3ca0);
-  background: -moz-linear-gradient(#b25d46, #a74141, #743879, #4a3ca0);
-  background: -o-linear-gradient(#b25d46, #a74141, #743879, #4a3ca0);
-  background: linear-gradient(#b25d46, #a74141, #743879, #4a3ca0);
+  background: -webkit-gradient(linear, left top, left bottom, from(#1e7a99), color-stop(#2699c0), color-stop(#4a62d0), to(#6c2de0));
+  background: -webkit-linear-gradient(#1e7a99, #2699c0, #4a62d0, #6c2de0);
+  background: -moz-linear-gradient(#1e7a99, #2699c0, #4a62d0, #6c2de0);
+  background: -o-linear-gradient(#1e7a99, #2699c0, #4a62d0, #6c2de0);
+  background: linear-gradient(#1e7a99, #2699c0, #4a62d0, #6c2de0);
 }
 
 @media screen and (min-width: 800px) {
@@ -689,7 +689,15 @@ html::-webkit-scrollbar-thumb {
 }
 
 .timeline__block__title {
-  font-size: 3rem;
+  font-size: 25px;
+  background: -webkit-gradient(linear, right top, left top, from(#1e7a99), color-stop(#2699c0), color-stop(#4a62d0), to(#6c2de0));
+  background: -webkit-linear-gradient(right, #1e7a99, #2699c0, #4a62d0, #6c2de0);
+  background: -moz-linear-gradient(right, #1e7a99, #2699c0, #4a62d0, #6c2de0);
+  background: -o-linear-gradient(right, #1e7a99, #2699c0, #4a62d0, #6c2de0);
+  background: linear-gradient(to left, #1e7a99, #2699c0, #4a62d0, #6c2de0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 799px) {
@@ -706,7 +714,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 .timeline__block__text {
-  font-size: 1.6rem;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 500px) {

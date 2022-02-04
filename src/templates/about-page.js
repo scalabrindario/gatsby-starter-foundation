@@ -27,15 +27,6 @@ const AboutPage = ({ data }) => {
         <h1>{frontmatter.title}</h1>
         <article dangerouslySetInnerHTML={{ __html: html }} />
       </div>
-        <header class="banner">
-        <div class="container">
-          <div class="col">
-            <h1 class="banner__title">A Creative Timeline Animation</h1>
-            <h2 class="banner__sub-title">With Pure CSS No Javascript</h2>
-            <p class="banner__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus deleniti cum voluptatem illum animi dolor molestias necessitatibus a at laborum!</p>
-          </div>
-        </div>
-      </header>
 
       <section class="timeline">
           <div class="container">
