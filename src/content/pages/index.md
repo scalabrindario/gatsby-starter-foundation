@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Dario Scalabrin
 tagline: Title
-featuredImage: /assets/img_9494-squared.webp
+featuredImage: /assets/cover-photo.webp
 cta:
   ctaText: Know more
   ctaLink: /about
