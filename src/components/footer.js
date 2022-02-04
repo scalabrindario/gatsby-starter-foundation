@@ -11,13 +11,8 @@ const Footer = () => (
     }}
   >
     <div className="container">
-      <p>
-        A GatsbyJS Starter for Netlify CMS, Made with{" "}
-        <span className="icon -love">
-          <RiHeart2Line />
-        </span>{" "}
-        by <Link to="/">Stackrole.com</Link>
-      </p>
+      <p>&copy; {new Date().getFullYear()} &bull; Made with <span role="img" aria-label="love">❤️</span> by <a href="https://www.linkedin.com/in/scalabrindario/">Dario Scalabrin</a></p>
+      
     </div>
   </footer>
 )
