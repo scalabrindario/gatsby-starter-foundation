@@ -709,7 +709,16 @@ html::-webkit-scrollbar-thumb {
 
 @media screen and (min-width: 800px) {
   .timeline__block__title {
-    line-height: 0;
+  /*line-height: 0;*/
+  font-size: 40px;
+  background: -webkit-gradient(linear, right top, left top, from(#1e7a99), color-stop(#2699c0), color-stop(#4a62d0), to(#6c2de0));
+  background: -webkit-linear-gradient(right, #1e7a99, #2699c0, #4a62d0, #6c2de0);
+  background: -moz-linear-gradient(right, #1e7a99, #2699c0, #4a62d0, #6c2de0);
+  background: -o-linear-gradient(right, #1e7a99, #2699c0, #4a62d0, #6c2de0);
+  background: linear-gradient(to left, #1e7a99, #2699c0, #4a62d0, #6c2de0);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   }
 }
 
