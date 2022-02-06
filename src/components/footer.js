@@ -11,7 +11,7 @@ const Footer = () => (
     }}
   >
     <div className="container">
-      <p>&copy; {new Date().getFullYear()} &bull; Made with <span role="img" aria-label="love">❤️</span> by <a href="https://www.linkedin.com/in/scalabrindario/">Dario Scalabrin</a></p>
+      <p>&copy; {new Date().getFullYear()} &bull; Made with <span role="img" aria-label="love">❤️</span> by Dario Scalabrin</p>
       
     </div>
   </footer>
