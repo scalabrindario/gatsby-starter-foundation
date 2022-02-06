@@ -152,7 +152,7 @@ collections:
               - widget: image
                 name: image
                 label: image
-                default: "/assets/stackrole.png"
+                default: "/assets/android-chrome-512x512.png"
               - widget: image
                 name: iconimage
                 label: favicon
