@@ -1,16 +1,12 @@
 {
   "socialIcons": [
     {
-      "icon": "facebook",
-      "url": "https://www.facebook.com/dario.scalabrin"
-    },
-    {
-      "icon": "instagram",
-      "url": "https://www.instagram.com/scalabrindario/"
-    },
-    {
       "icon": "linkedin",
       "url": "http://linkedin.com/in/scalabrindario/"
+    },
+    {
+      "icon": "github",
+      "url": "https://github.com/scalabrindario/"
     }
   ]
 }
