@@ -4,8 +4,8 @@
     "titleTemplate": "%s",
     "description": "2022 | Made with ❤ by Dario Scalabrin",
     "siteUrl": "https://foundation.stackrole.com",
-    "image": "/assets/favicon_sd.png",
-    "iconimage": "/assets/favicon_sd.png",
+    "image": "/assets/android-chrome-512x512.png",
+    "iconimage": "/assets/android-chrome-512x512.png",
     "twitterUsername": ""
   },
   "ga": "UA-XXXXXXXXX-X"
