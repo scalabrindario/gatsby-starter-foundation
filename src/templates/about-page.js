@@ -27,6 +27,7 @@ const AboutPage = ({ data }) => {
         <h1>{frontmatter.title}</h1>
         <article dangerouslySetInnerHTML={{ __html: html }} />
       </div>
+      <p>Ciao mi chiamo Dario</p>
     </Layout>
   )
 }
