@@ -320,7 +320,7 @@ article img {
   }
   input,
   textarea {
-    color: #fff;
+    color: var(--label-text);
     width: 100%;
     max-width: 100%;
     margin: 8px 0 16px;
