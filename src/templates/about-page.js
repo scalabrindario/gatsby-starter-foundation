@@ -4,8 +4,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-
-
+import { StaticImage } from "gatsby-plugin-image"
 
 export const pageQuery = graphql`
   query AboutQuery($id: String!) {
@@ -43,6 +42,7 @@ const AboutPage = ({ data }) => {
                         </div>
                         <div class="timeline__block__body">
                             <h2>Start of Master's degree</h2>
+                            <StaticImage src="../images/master-degree.webp" alt="Master Degree Cover" />
                             <p class="timeline__block__text"><span id="makespace"> <span id="makespace">The <a href="https://www.epfl.ch/education/master/programs/sustainable-management-and-technology/" target="_blank">MSc in Sustainable Management and Technology</a> is jointly delivered by three top institutions: <a href="https://www.imd.org" target="_blank">IMD Business School</a>, <a href="https://www.epfl.ch/" target="_blank"> Swiss Federal Institute of Technology Lausanne (EPFL)</a>, and <a href="https://www.unil.ch/hec/en/home.html" target="_blank">HEC Lausanne</a>.</span></span><span id="makespace"><span id="makespace">The program equips entrepreneurs and intrapreneurs of the future with the knowledge and skills enabling them to contribute to the transition toward a more resilient, environmentally responsible, and inclusive economy while harnessing the power of technology.</span></span> The MSc builds competencies along three dimensions: technology & innovation, economics & management, and tools and skills for developing sustainable solutions.</p>
                         </div>
                     </div>
