@@ -98,7 +98,7 @@ const AboutPage = ({ data }) => {
                             <span class="timeline__block__circle"></span>
                         </div>
                         <div class="timeline__block__head">
-                            <h1 class="timeline__block__title">June - September 2019</h1>
+                            <h1 class="timeline__block__title">June - August 2019</h1>
                         </div>
                         <div class="timeline__block__body">
                             <h2>Summer Internship at Sca.co s.r.l.</h2>
