@@ -43,7 +43,7 @@ const AboutPage = ({ data }) => {
                         </div>
                         <div class="timeline__block__body">
                             <h2>Start of Master's degree</h2>
-                            <p class="timeline__block__text">The MSc in Sustainable Management and Technology program is jointly delivered by three top institutions: IMD, Swiss Federal Institute of Technology Lausanne (EPFL), and HEC Lausanne.</p>
+                            <p class="timeline__block__text">The <a href="https://www.epfl.ch/education/master/programs/sustainable-management-and-technology/" target="_blank">MSc in Sustainable Management and Technology</a> is jointly delivered by three top institutions: <a href="https://www.imd.org" target="_blank">IMD Business School</a>, <a href="https://www.epfl.ch/" target="_blank">EPFL</a>, and <a href="https://www.unil.ch/hec/en/home.html" target="_blank">HEC Lausanne</a>.</p>
                             <p class="timeline__block__text">The program equips entrepreneurs and intrapreneurs of the future with the knowledge and skills enabling them to contribute to the transition toward a more resilient, environmentally responsible, and inclusive economy while harnessing the power of technology.The MSc wants to build competencies along three dimensions: technology & innovation, economics & management, and tools and skills for developing sustainable solutions.</p>
                         </div>
                     </div>
