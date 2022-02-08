@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import MasterDegree01 from "../static/assets/master-degree.webp"
 
 
 
@@ -44,8 +43,6 @@ const AboutPage = ({ data }) => {
                         </div>
                         <div class="timeline__block__body">
                             <h2>Start of Master's degree</h2>
-                            <img src={MasterDegree01} alt="Master Degree" />
-
                             <p class="timeline__block__text">The MSc in Sustainable Management and Technology program is jointly delivered by three top institutions: IMD, Swiss Federal Institute of Technology Lausanne (EPFL), and HEC Lausanne.</p>
                             <p class="timeline__block__text">The program equips entrepreneurs and intrapreneurs of the future with the knowledge and skills enabling them to contribute to the transition toward a more resilient, environmentally responsible, and inclusive economy while harnessing the power of technology.The MSc wants to build competencies along three dimensions: technology & innovation, economics & management, and tools and skills for developing sustainable solutions.</p>
                         </div>
