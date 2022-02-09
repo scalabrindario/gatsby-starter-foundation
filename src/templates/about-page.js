@@ -55,6 +55,7 @@ const AboutPage = ({ data }) => {
                         </div>
                         <div class="timeline__block__body">
                             <h2>Internship at Assicurazioni Generali S.p.A.</h2>
+                            <StaticImage src="../images/internship-generali.webp" alt="Internship Assicurazioni Generali" />
                             <p class="timeline__block__text"><span id="makespace"><span id="makespace">Working experience as Junior Innovation Consultant at <a href="https://www.generali.com" target="_blank">Assicurazioni Generali S.p.A.</a>, one of the largest global insurance and asset management providers.</span></span><span id="makespace"><span id="makespace">The internship opportunity was mainly focused on activating and supporting operations of the Central Innovation Fund while monitoring KPIs of previously funded initiatives.</span></span>At the same time, I was involved in the drafting of the <a href="https://www.generali.com/investors/Strategy" target="_blank">new strategic innovation plan for the period 2022-2024</a>, which has been finalized and announced in December 2021.</p>
                         </div>
                     </div>
@@ -79,6 +80,7 @@ const AboutPage = ({ data }) => {
                         </div>
                         <div class="timeline__block__body">
                             <h2>Novartis Hackathon</h2>
+                            <StaticImage src="../images/hack-novartis.webp" alt="Hackathon Novartis" />
                             <p class="timeline__block__text"><span id="makespace"><span id="makespace">A 24-hour marathon, where 100 people challenged each other during the “Thalathon”, the hackathon organized by <a href="https://www.novartis.com" target="_blank">Novartis</a> in collaboration with H-Farm, to develop innovative ideas that can help people affected by thalassemia.</span></span> During the competition, participants were asked to create a heterogeneous team, which aimed at tackling one out of three key challenges: the enhancement of the time spent by patients in the hospital during the therapies, the development of technological tools for therapy management, and the awareness-raising initiatives on the disease.</p>
                         </div>
                     </div><div class="timeline__block">
@@ -102,6 +104,7 @@ const AboutPage = ({ data }) => {
                         </div>
                         <div class="timeline__block__body">
                             <h2>Summer Internship at Sca.co s.r.l.</h2>
+                            <StaticImage src="../images/summer-internship-scaco.webp" alt="Summer Internship Generali" />
                             <p class="timeline__block__text"><span id="makespace"><span id="makespace">Working experience as Logistic Coordinator Intern at <a href="https://www.scaco.eu" target="_blank">Sca.co. s.r.l.</a>, a key player in the seafood and fish business in Italy.</span></span> The internship opportunity was mainly focused on planning, organizing, and controlling the supply chain of fresh seafood products with a short shelf-life time (below 15 days). In particular, the main tasks were arranging national and international deliveries for Supermarkets and Wholesalers, whereas analyzing the main issues for delivery delays to improve KPIs.</p>
                         </div>
                     </div>
@@ -140,6 +143,7 @@ const AboutPage = ({ data }) => {
                         </div>
                         <div class="timeline__block__body">
                             <h2>End of High School</h2>
+                            <StaticImage src="../images/end-high-school.webp" alt="End high school" />
                             <p class="timeline__block__text"><span id="makespace"> <span id="makespace">Obtained the high school diploma in Administration, Finance, and Marketing, with a final grade of 100/100.</span></span> The diploma focuses on developing business administration skills, integrated by transversal linguistic and IT knowledge. In particular, students acquire expertise in national and international economic and business phenomena, civil and fiscal legislation, business systems (organization, planning, programming, administration and accounting, finance and management control), and marketing.</p>
                         </div>
                     </div>
