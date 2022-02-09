@@ -67,6 +67,7 @@ const AboutPage = ({ data }) => {
                         </div>
                         <div class="timeline__block__body">
                             <h2>End of Bachelor's degree</h2>
+                            <StaticImage src="../images/end-bachelor-degree.webp" alt="End Bachelor Degree" />
                             <p class="timeline__block__text"><span id="makespace"><span id="makespace">With the defense of my dissertation <i>“Create an innovation engine to lay the foundations for long-term success”</i>, an important chapter of my life came to a close.</span></span><span id="makespace"><span id="makespace">Super proud to have completed my BSc in Digital Management, with a final grade of 110 cum Laude.</span></span> It has been a challenging adventure, where the Covid-19 pandemic has upset overnight our learning habits, but it is also for this reason that the class of 2021 has an extra gear: it is resilient and never gets down!</p>
                         </div>
                     </div><div class="timeline__block">
@@ -89,6 +90,7 @@ const AboutPage = ({ data }) => {
                         </div>
                         <div class="timeline__block__body">
                             <h2>Freement (Entrepreneurial Activity)</h2>
+                            <StaticImage src="../images/freement.webp" alt="Freement" />
                             <p class="timeline__block__text"><span id="makespace"><span id="makespace">There is nothing truer than the quote <i>"Fall in love with the problem, not the solution”</i>. For this reason, I partnered with a friend of mine in order to tackle a critical problem that all the young people in my hometown have: what to do for New Year’s Eve.</span></span> We organized a four-day event in the Alps, with over 150 participants. For this event, we managed not only accommodation and transportation but also, financial resources, communication, and customer care.</p>
                         </div>
                     </div><div class="timeline__block">
@@ -112,6 +114,7 @@ const AboutPage = ({ data }) => {
                         </div>
                         <div class="timeline__block__body">
                             <h2>Fondazione ANIA Hackathon</h2>
+                            <StaticImage src="../images/hack-fondazione-ania.webp" alt="Hackathon Fondazione ANIA" />
                             <p class="timeline__block__text"><span id="makespace"> <span id="makespace">A 24-hour marathon, where more than 60 young people challenged each other during the “H-ack health”, the hackathon organized by <a href="https://www.ania.it" target="_blank">ANIA Foundation</a> in collaboration with H-Farm, to devise innovative and forward-looking projects for the health insurance world.</span></span> During the competition, the participants were also able to participate in interviews with large tech and insurance companies and be inspired by the interventions of experts.</p>
                         </div>
                     </div>
@@ -124,7 +127,8 @@ const AboutPage = ({ data }) => {
                         </div>
                         <div class="timeline__block__body">
                             <h2>Start of Bachelor's degree</h2>
-                            <p class="timeline__block__text"><span id="makespace"> <span id="makespace">The <a href="https://www.h-farm.com/en/education/college/bachelor-degrees/digital-management" target="_blank">BSc in Digital Management</a> is an innovative program, designed in partnership with Ca’ Foscari University of Venice and H-Farm. The course trains talents capable of creating innovative startups or providing support to companies, in the digital transformation and innovation of business models.</span></span> Taught entirely in English, the course offers an immersive and interactive learning experience with an interdisciplinary pathway, problem- and project-based teaching, and a rich program of enhancing activities. The BSc is distinguished by the continuous interaction between students, teachers, innovative startups, and the engagement of important lecturers experts in the fields of digital transformation and innovation.</p>
+                            <StaticImage src="../images/start-bachelor-degree.webp" alt="Start bachelor degree" />
+                            <p class="timeline__block__text"><span id="makespace"> <span id="makespace">The <a href="https://www.h-farm.com/en/education/college/bachelor-degrees/digital-management" target="_blank">BSc in Digital Management</a> is an innovative program, designed in partnership with <a href="https://unive.it" target="_blank">Ca’ Foscari University of Venice</a> and <a href="https://www.h-farm.com/" target="_blank">H-Farm</a>. The course trains talents capable of creating innovative startups or providing support to companies, in the digital transformation and innovation of business models.</span></span> Taught entirely in English, the course offers an immersive and interactive learning experience with an interdisciplinary pathway, problem- and project-based teaching, and a rich program of enhancing activities. The BSc is distinguished by the continuous interaction between students, teachers, innovative startups, and the engagement of important lecturers experts in the fields of digital transformation and innovation.</p>
                         </div>
                     </div>
                     <div class="timeline__block">
