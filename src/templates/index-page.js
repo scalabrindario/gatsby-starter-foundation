@@ -221,7 +221,8 @@ const HomePage = ({ data }) => {
 
           <a
             href="https://drive.google.com/file/d/1b_UbS1px4qQpx2JMkSrn_6Yu5C1GXQ_V/view?usp=sharing"
-            className="button">
+            className="button"
+            target="_blank">
             Download Curriculum Vitae
             <span className="icon -right">
               <FaCloudDownloadAlt />
