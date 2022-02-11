@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
-import { RiArrowRightSLine, FiDownload } from "react-icons/ri"
+import { RiArrowRightSLine } from "react-icons/ri"
 import {
   RiFacebookBoxFill,
   RiTwitterFill,
@@ -19,7 +19,7 @@ import {
   RiMediumFill,
   RiBehanceFill,
 } from "react-icons/ri"
-import { FaWordpress, FaVk } from "react-icons/fa"
+import { FaWordpress, FaVk, FaCloudDownloadAlt } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import BlogListHome from "../components/blog-list-home"
@@ -224,7 +224,7 @@ const HomePage = ({ data }) => {
             className="button">
             Download Curriculum Vitae
             <span className="icon -right">
-              <FiDownload />
+              <FaCloudDownloadAlt />
             </span>
           </Link>
 
