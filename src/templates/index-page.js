@@ -70,7 +70,6 @@ export const pageQuery = graphql`
     }
   }
 `
-<a href="www.googl.it" className="button"> Download CV </a>
 
 const HomePage = ({ data }) => {
   const { markdownRemark, posts } = data // data.markdownRemark holds your post data
