@@ -219,14 +219,14 @@ const HomePage = ({ data }) => {
             </span>
           </Link>
 
-          <Link
-            to="../../Scalabrin Dario CV.pdf"
-            className="button">
+          <a
+            href="https://drive.google.com/file/d/1b_UbS1px4qQpx2JMkSrn_6Yu5C1GXQ_V/view?usp=sharing"
+            className="button -outline">
             Download Curriculum Vitae
-            <span className="icon -right">
+            <span className="button -outline">
               <FaCloudDownloadAlt />
             </span>
-          </Link>
+          </a>
 
           <div
             className="social-icons"
