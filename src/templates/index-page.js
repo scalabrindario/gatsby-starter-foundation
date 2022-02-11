@@ -45,6 +45,7 @@ export const pageQuery = graphql`
         }
       }
     }
+
     posts: allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       filter: { frontmatter: { template: { eq: "blog-post" } } }
@@ -69,6 +70,7 @@ export const pageQuery = graphql`
     }
   }
 `
+<a href="www.googl.it" className="button"> Download CV </a>
 
 const HomePage = ({ data }) => {
   const { markdownRemark, posts } = data // data.markdownRemark holds your post data
