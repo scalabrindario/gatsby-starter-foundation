@@ -2,7 +2,7 @@
 import { jsx } from "theme-ui"
 import { graphql, Link } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
-import { RiArrowRightSLine } from "react-icons/ri"
+import { RiArrowRightSLine, FiDownload } from "react-icons/ri"
 import {
   RiFacebookBoxFill,
   RiTwitterFill,
@@ -206,19 +206,28 @@ const HomePage = ({ data }) => {
             className="description"
             dangerouslySetInnerHTML={{ __html: html }}
           />
+
           <Link
             to={frontmatter.cta.ctaLink}
             className="button"
             sx={{
-              variant: "variants.button",
-            }}
-          >
+              variant: "variants.button",}}>
             {frontmatter.cta.ctaText}
 
             <span className="icon -right">
               <RiArrowRightSLine />
             </span>
           </Link>
+
+          <Link
+            to="../../Scalabrin Dario CV".pdf
+            className="button">
+            Download Curriculum Vitae
+            <span className="icon -right">
+              <FiDownload />
+            </span>
+          </Link>
+
           <div
             className="social-icons"
             sx={{
