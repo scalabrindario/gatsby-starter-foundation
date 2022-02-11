@@ -220,7 +220,7 @@ const HomePage = ({ data }) => {
           </Link>
 
           <Link
-            to="../../Scalabrin Dario CV".pdf
+            to="../../Scalabrin Dario CV.pdf"
             className="button">
             Download Curriculum Vitae
             <span className="icon -right">
